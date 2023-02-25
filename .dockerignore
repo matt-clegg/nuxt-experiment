@@ -1,0 +1,6 @@
+﻿node_modules
+npm-debug*
+.nuxt
+dist
+tests
+.output

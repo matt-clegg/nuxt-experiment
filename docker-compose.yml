@@ -1,0 +1,15 @@
+﻿version: "3.8"
+
+services:
+  frontend:
+    build:
+      args:
+        DOCKER_BUILDKIT: 1
+      context: .
+      dockerfile: Dockerfile
+    container_name: nuxt-experiment
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"

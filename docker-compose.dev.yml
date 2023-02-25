@@ -1,0 +1,8 @@
+﻿version: "3.8"
+
+services:
+  frontend:
+    build:
+      target: base
+    container_name: nuxt-experiment
+    command: ["npm", "run", "dev"]
