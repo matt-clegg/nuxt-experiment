@@ -2,6 +2,8 @@ name: ci
 
 on: "push"
 
+#foo
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
